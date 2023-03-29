@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .barra {
+    align-items: center;
+    display: flex;
+    padding: 21px 144px;
+    justify-content: space-between;
+}
+
+body .barra .izquierda{
+    align-items: center;
+    display: flex;
+}
+
+body .barra .izquierda .logo {
+    background: #333333;
+    color: #F1F1F1;
+    padding: 8px 24px;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+
+body .barra .izquierda .barraitems {
+    align-items: center;
+    display: flex;
+    gap: 34px;
+}
+
+body .barra .derecha {
+    align-items: center;
+    display: flex;
+    gap: 34px;
+}
+
+body .barra .derecha .botones{
+    display: flex;
+}
+
+body .barra .derecha .botones .botonderecho {
+    background: #333333;
+    border-radius: 5px;
+    color: #F1F1F1;
+    padding: 16px 48px;
+}
+
+body .barra .derecha .botones .botonizquierdo {
+    border: 1px solid #333333;
+    border-radius: 5px;
+    color: #333333;
+    padding: 16px 48px;
+}
+
+
+body .barra .buscar span {
+    justify-content: center;
+}
+
+body .botones {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    gap: 34px;
+}
+
+body .botones .boton1 > button {
+    background: #333333;
+    border-radius: 5px;
+    color: #F1F1F1;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 24px;
+    padding: 16px 48px;
+}
+
+body .botones .boton2 > button {
+    background: #F1F1F1;
+    border-radius: 5px;
+    color: #333333;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 24px;
+    padding: 16px 48px;}
+
+
+body .piedepagina {
+    background: #121212;
+    background-color: solid#121212;
+    height: 550px;
+}
+
+
+body .piedepagina .logo > span {
+    color: #666666;
+    font-size: 56px;
+    padding: 50px 80px;
+}
+
+body .piedepagina .infopie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+body .piedepagina .infopie .texto {
+    border: 2px #f1f1f1;
+    height: 90px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .piedepagina .infopie .texto > p {
+    color: #f1f1f1;
+    font-size: 16px;
+    height: 80;
+    padding: 24px 80px;
+    width: 467px;
+}
+
+body .piedepagina .infopie .texto .inferior {
+    display: flex;
+}
+
+body .piedepagina .infopie .texto .inferior .logo > span {
+    color: #666666;
+    font-size: 20px;
+    justify-content: center;
+    padding: 5px 80px;
+    text-align: center
+}
+
+body .piedepagina .infopie .texto .inferior .logo > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+body .piedepagina .infopie .infoderecha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 16px 24px;
+    width: 50%;
+}
+
+
+body .piedepagina .infopie .infoderecha .products > h1 {
+    color: #f1f1f1;
+    font-size: 24px;
+}
+
+body .piedepagina .infopie .infoderecha .products > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+body .piedepagina .infopie .infoderecha .support > h2 {
+    color: #f1f1f1;
+    font-size: 24px;
+} 
+
+body .piedepagina .infopie .infoderecha .support > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 10px 0;
+
+} 
+
+body .piedepagina .infopie .infoderecha .contact > h3 {
+    color: #f1f1f1;
+    font-size: 24px;
+} 
+
+
+body .piedepagina .infopie .infoderecha .contact > p {
+    color: #f1f1f1;
+    font-size: 12px;
+    padding: 10px 0;
+
+} 
+
+body .piedepagina .infopie .infoderecha .contact .logos2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 5px 0px;
+}
+
+body .piedepagina .infopie .infoderecha .contact .logo2 > span {
+    color: #666666;
+    font-size: 20px;
+}
+
+body .fondo {
+    background: #333333;
+    background-color: solid#333333;
+    color: #f1f1f1;
+    font-size: 13px;
+    height: 50px;
+    padding: 20px 23px;
+    text-align: center;
+}
+
